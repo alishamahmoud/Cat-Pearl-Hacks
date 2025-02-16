@@ -52,10 +52,10 @@ const questions = [
 const catGIFs = {
   "Purring with Joy": "https://media1.tenor.com/m/TQu4CQKq6CMAAAAC/saleh-jumping-saleh-the-cat.gif",
   "Feline Blue": "https://media.tenor.com/KiAJYTBLjL0AAAAi/fat-cat.gif",
-  "In Zoomies Mode": "https://media.tenor.com/W17t-0M9_s8AAAAM/cat-spaz.gif",
+  "Zoomies Mode": "https://media1.tenor.com/m/iRNtCkXla7oAAAAC/cat-wiggle.gif",
   "Curled Up Cozy": "https://media.tenor.com/nXNHCwBK_M4AAAAM/lazy-cat.gif",
   "At your tail's end": "https://media1.tenor.com/m/6nBZUxXWS7IAAAAd/sad-dejected.gif",
-  "Fur-ocious": "https://media1.tenor.com/m/iRNtCkXla7oAAAAC/cat-wiggle.gif",
+  "Fur-ocious" : "https://media1.tenor.com/m/-legwEzkXG0AAAAC/angry-cat.gif: ",
   "A Tail of Trouble": "https://media.tenor.com/JWFEQcWcJyQAAAAM/happy-catto-cats.gif"
 };
 
