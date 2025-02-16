@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Gif of the Day</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <hgroup>
+    <h1>Your Mood</h1> 
+    <h1>As Told by Cats</h1>
+    <style>
+      body {
+        text-align: center;
+      }
+      image {
+        margin: 0 auto;
+        display: block;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      img {
+        width: 400px;
+        height: 250px;
+      }
+    </style>
+    <p>
+      <img src="back1.jpg">
+    </p>
+    <p>Whisker Wisdom!</p>
+    <p>Unveil Your Inner Cat! What Feline Fate Awaits You Today?</p>
+
+  </hgroup>  
+  
+  <div class="container">
+    <audio id="background-music" autoplay loop>
+      <source src="mystical.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <div id="intro">
+      <p>Do you want to take the Feline Feels test?</p>
+      <p>
+        <img src="Screenshot 2025-02-15 at 5.57.07 PM.png" alt="Nyan Pusheen GIF">
+      </p>
+      <button class="yes-button" onclick="startTest()">Yes</button>
+    </div>
+
+    <div id="quiz" style="display: none;">
+      <p id="question-text"></p>
+      <div id="choices"></div>
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+    </div>
+    <div id="result" style="display: none;">
+      <p>Your cat match:</p>
+      <img id="result-gif" src="" alt="Cat GIF">
+      <p id="result-text"></p>
+    </div>
+
+  </div>
+
+
+  <footer>
+    &copy; 2025 Melanie Ohta, Michelle Chen, Patricia Ni, Alisha Khawaja
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

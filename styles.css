@@ -1,0 +1,81 @@
+body {
+  font-family: URW Chancery L, cursive;
+  background-color: #d8b8d8;
+}
+h1 {
+  font-family: URW Chancery L, cursive;
+  font-size: 2.5rem;
+  color: #343434
+}
+p{
+  font-size: 1.2rem;
+  color: #343434;
+text-align: center;
+background-color: #d8b8d8;
+margin: 0;
+padding: 0;  
+}
+.yes-button {
+  font-family: URW Chancery L, cursive;
+  font-size: 15px;
+  color: #343434
+ 
+}
+
+header {
+  background-color: #d8b8d8;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.container {
+  margin-top: 80px;
+  max-width: 600px;
+  background: #d8b8d8;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background-color: #a472a4;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #c986c0;
+}
+#choices button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+}
+
+#progress-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9d4edd;
+  box-shadow: 0px 0px 10px rgba(58, 12, 163, 0.5);
+}
+
+progress::-webkit-progress-bar {
+  background-color: #9d4edd;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #d8b4f8;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
